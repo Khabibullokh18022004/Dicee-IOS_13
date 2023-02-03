@@ -13,6 +13,8 @@ class ViewController: UIViewController {
         let diceArray = ["DiceOne", "DiceTwo","DiceThree", "DiceFour","DiceFive", "DiceSix" ]
         diceImageView1.image = UIImage(named: diceArray.randomElement()!)
         DiceImageView2.image = UIImage(named : diceArray.randomElement()!)
+            //hello
+        
         
     }
 }
